@@ -70,7 +70,7 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="Home">
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage

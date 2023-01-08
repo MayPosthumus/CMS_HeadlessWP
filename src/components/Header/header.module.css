@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(#222, #333, #000);
+    display: flex;
+}
+
+.siteTitle {
+    position: relative;
+    left: 5vw;
+    line-height: 10vh;
+    font-family: 'Anybody', cursive;
+    color: #ff99ff;
+    font-size: 2.5rem;
+}
+
+.navLinks {
+    display: flex;
+    position: absolute;
+    left: 70vw;
+    list-style-type: none;
+    margin-right: 10vw;
+}
+
+.navLinkItem {
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-top: none;  
+    border-bottom: none;
+}
+
+.navLinkText {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 5vh;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.navLinkText:hover {
+    color: #ff99ff;
+}
